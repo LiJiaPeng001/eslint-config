@@ -1,3 +1,17 @@
-## starter-ts
+# @peeeng/eslint-prettier
 
-库的原始包
+## Usage
+
+### Install
+
+```bash
+pnpm add -D eslint @peeeng/eslint-prettier
+```
+
+### Config `.eslintrc`
+
+```json
+{
+  "extends": "@peeeng"
+}
+```
