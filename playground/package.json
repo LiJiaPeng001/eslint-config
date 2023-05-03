@@ -1,19 +1,17 @@
 {
   "name": "playground",
+  "type": "module",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "lint": "eslint ."
   },
-  "dependencies": {
-    "vue": "^3.2.47"
-  },
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.1.0",
-    "typescript": "^5.0.2",
-    "unocss": "^0.50.6",
-    "vite": "^4.2.1",
-    "vue-tsc": "^1.2.0"
+    "@peeeng/eslint-config-basic": "^0.0.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
   }
 }
