@@ -20,7 +20,6 @@
     "eslint-plugin-vue": "^9.11.0"
   },
   "devDependencies": {
-    "@peeeng/eslint-config-vue": "workspace:^",
     "eslint": "^8.38.0"
   }
 }

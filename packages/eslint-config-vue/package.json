@@ -13,8 +13,11 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
+  "dependencies": {
+    "@peeeng/eslint-config-basic": "workspace:^",
+    "eslint-plugin-vue": "^9.11.0"
+  },
   "devDependencies": {
-    "@peeeng/eslint-config-basic": "workspace:^0.0.0",
-    "eslint-plugin-vue": "^9.11.1"
+    "eslint": "^8.40.0"
   }
 }
