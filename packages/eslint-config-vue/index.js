@@ -6,10 +6,10 @@ module.exports = {
       // parserOptions: {
       //   parser: '@typescript-eslint/parser',
       // },
-      rules: {
-        'no-unused-vars': 'off',
-        'no-undef': 'off',
-      },
+      // rules: {
+      //   'no-unused-vars': 'off',
+      //   'no-undef': 'off',
+      // },
     },
   ],
   extends: ['plugin:vue/vue3-recommended', '@peeeng/eslint-config-basic'],
