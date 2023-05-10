@@ -1,6 +1,6 @@
 {
   "name": "@peeeng/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Peeeng's ESLint config",
   "author": "lijiapeng001 (https://github.com/lijiapeng001/)",
   "license": "MIT",
