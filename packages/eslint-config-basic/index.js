@@ -171,7 +171,7 @@ module.exports = {
     'no-return-assign': 'off',
     // 'operator-linebreak': ['error', 'before'],
     'max-statements-per-line': ['error', { max: 1 }],
-    'vue/singleline-html-element-content-newline':'off'
+    'vue/singleline-html-element-content-newline':'off',
     // import
     'import/order': 'error',
     'import/first': 'error',
