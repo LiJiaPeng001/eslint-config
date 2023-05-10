@@ -1,6 +1,6 @@
 {
   "name": "@peeeng/eslint-config-vue",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Peeeng's ESLint config",
   "license": "MIT",
   "keywords": [
