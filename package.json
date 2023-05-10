@@ -18,7 +18,7 @@
     "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
-    "bum": "bumpp",
+    "bum": "bumpp -r",
     "release": "pnpm -r publish --access public"
   },
   "devDependencies": {

@@ -1,0 +1,26 @@
+{
+  "name": "@peeeng/eslint-config",
+  "version": "0.0.0",
+  "description": "Peeeng's ESLint config",
+  "author": "lijiapeng001 (https://github.com/lijiapeng001/)",
+  "license": "MIT",
+  "homepage": "https://github.com/lijiapeng001/eslint-prettier",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-vue": "^9.11.0"
+  },
+  "devDependencies": {
+    "@peeeng/eslint-config-vue": "workspace:^",
+    "eslint": "^8.38.0"
+  }
+}

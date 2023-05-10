@@ -1,2 +1,2 @@
-const a = "IU";
-console.log(a);
+const a = 'IU'
+console.log(a)
