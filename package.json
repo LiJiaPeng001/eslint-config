@@ -1,7 +1,7 @@
 {
   "name": "@peeeng/eslint-prettier",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@8.1.1",
   "description": "peeeng eslint-prettier",
@@ -18,7 +18,8 @@
     "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp -r && pnpm -r publish"
+    "bum": "bumpp",
+    "release": "pnpm -r publish --access public"
   },
   "devDependencies": {
     "bumpp": "^9.1.0",
