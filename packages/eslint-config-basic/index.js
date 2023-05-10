@@ -76,7 +76,7 @@ module.exports = {
     camelcase: 'off',
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': 'never',
     'no-constant-condition': 'warn',
     // "no-debugger": "error",
     // "no-console": ["error", { allow: ["warn", "error"] }],
@@ -169,9 +169,9 @@ module.exports = {
     'vars-on-top': 'error',
     'require-await': 'off',
     'no-return-assign': 'off',
-    'operator-linebreak': ['error', 'before'],
+    // 'operator-linebreak': ['error', 'before'],
     'max-statements-per-line': ['error', { max: 1 }],
-
+    'vue/singleline-html-element-content-newline':'off'
     // import
     'import/order': 'error',
     'import/first': 'error',
