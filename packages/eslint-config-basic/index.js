@@ -76,7 +76,7 @@ module.exports = {
     camelcase: 'off',
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],
-    'comma-dangle': 'never',
+    'comma-dangle': 'off',
     'no-constant-condition': 'warn',
     // "no-debugger": "error",
     // "no-console": ["error", { allow: ["warn", "error"] }],
