@@ -16,6 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "@peeeng/eslint-config-vue": "workspace:^",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-vue": "^9.11.0"
   },

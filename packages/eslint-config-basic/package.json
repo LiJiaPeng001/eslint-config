@@ -3,17 +3,10 @@
   "version": "0.0.4",
   "private": true,
   "packageManager": "pnpm@8.1.1",
-  "description": "peeeng eslint-prettier",
-  "author": "JiaPeng Li <13673717028m@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/lijiapeng001/eslint-prettier#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lijiapeng001/eslint-prettier.git"
-  },
+  "description": "Peeeng's ESLint config",
   "main": "index.js",
   "files": [
-    "*.js"
+    "index.js"
   ],
   "scripts": {
     "lint": "eslint . --config=index.js"

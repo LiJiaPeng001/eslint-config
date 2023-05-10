@@ -13,6 +13,9 @@ importers:
 
   packages/eslint-config:
     dependencies:
+      '@peeeng/eslint-config-vue':
+        specifier: workspace:^
+        version: link:../eslint-config-vue
       eslint-plugin-import:
         specifier: ^2.27.5
         version: 2.27.5(eslint@8.39.0)
