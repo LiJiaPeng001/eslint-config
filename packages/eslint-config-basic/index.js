@@ -48,7 +48,7 @@ module.exports = {
     '.vitepress/cache',
   ],
   extends: ['eslint:recommended', 'plugin:import/recommended'],
-  plugins: ['unused-imports'],
+  plugins: ['html','unused-imports'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
