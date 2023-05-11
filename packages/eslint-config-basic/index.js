@@ -49,6 +49,11 @@ module.exports = {
   ],
   extends: ['eslint:recommended', 'plugin:import/recommended'],
   plugins: ['unused-imports'],
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs'] },
+    },
+  },
   rules: {
     'no-var': 'warn',
     'object-shorthand': ['warn', 'properties'], // 定义对象字面方法和属性
