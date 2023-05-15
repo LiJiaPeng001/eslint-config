@@ -21,7 +21,15 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'vue/prefer-import-from-vue': 'off',
     'vue/no-v-text-v-html-on-component': 'off',
-
+    "vue/html-self-closing": ["error", {
+      "html": {
+        "void": "never",
+        "normal": "always",
+        "component": "always"
+      },
+      "svg": "always",
+      "math": "always"
+    }]
     // reactivity transform
     'vue/no-setup-props-destructure': 'off',
 
