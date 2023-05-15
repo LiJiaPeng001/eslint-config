@@ -23,7 +23,7 @@ module.exports = {
     'vue/no-v-text-v-html-on-component': 'off',
     "vue/html-self-closing": ["error", {
       "html": {
-        "void": "never",
+        "void": "any",
         "normal": "always",
         "component": "always"
       },
