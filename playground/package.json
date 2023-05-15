@@ -10,12 +10,9 @@
     "*.js"
   ],
   "devDependencies": {
-    "eslint": "^8.39.0",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint": "^8.39.0"
   },
   "dependencies": {
-    "@peeeng/eslint-config": "workspace:^",
-    "@peeeng/eslint-config-basic": "workspace:^",
-    "@peeeng/eslint-config-vue": "workspace:^"
+    "@peeeng/eslint-config": "workspace:^"
   }
 }

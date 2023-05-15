@@ -24,5 +24,8 @@
   "devDependencies": {
     "bumpp": "^9.1.0",
     "eslint": "^8.37.0"
+  },
+  "dependencies": {
+    "@peeeng/eslint-config": "workspace:^"
   }
 }

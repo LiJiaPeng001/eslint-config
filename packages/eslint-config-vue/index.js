@@ -12,7 +12,7 @@ module.exports = {
       },
     },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@peeeng/eslint-config-basic'],
+  extends: ['plugin:vue/vue3-recommended'],
   rules: {
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
@@ -21,18 +21,16 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'vue/prefer-import-from-vue': 'off',
     'vue/no-v-text-v-html-on-component': 'off',
-    "vue/html-self-closing": ["error", {
-      "html": {
-        "void": "any",
-        "normal": "always",
-        "component": "always"
+    'vue/html-self-closing': ['error', {
+      'html': {
+        'void': 'any',
+        'normal': 'always',
+        'component': 'always'
       },
-      "svg": "always",
-      "math": "always"
-    }]
-    // reactivity transform
+      'svg': 'always',
+      'math': 'always'
+    }],
     'vue/no-setup-props-destructure': 'off',
-
     'vue/component-tags-order': [
       'error',
       {
