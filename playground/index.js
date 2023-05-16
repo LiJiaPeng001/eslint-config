@@ -1,1 +1,1 @@
-const a = 'IU';
+const a = 'IU'
