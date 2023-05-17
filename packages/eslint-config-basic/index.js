@@ -48,7 +48,7 @@ module.exports = {
     '.vitepress/cache',
   ],
   extends: ['eslint:recommended', 'plugin:import/recommended'],
-  plugins: ['html','unused-imports'],
+  plugins: ['html', 'unused-imports'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
@@ -60,8 +60,8 @@ module.exports = {
     // Common
     semi: ['error', 'never'],
     curly: ['error', 'multi-or-nest', 'consistent'],
-    quotes: ['error', 'single'],
-    'quote-props': ['error', 'consistent-as-needed'],
+    // quotes: ['error', 'single'],
+    // 'quote-props': ['error', 'consistent-as-needed'],
 
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
@@ -88,17 +88,8 @@ module.exports = {
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
-    indent: [
-      'error',
-      2,
-      { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 },
-    ],
-    'no-restricted-syntax': [
-      'error',
-      'DebuggerStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
+    indent: ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+    'no-restricted-syntax': ['error', 'DebuggerStatement', 'LabeledStatement', 'WithStatement'],
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
     'space-before-function-paren': [
@@ -111,7 +102,6 @@ module.exports = {
     ],
 
     // es6
-    'no-var': 'error',
     'prefer-const': [
       'error',
       {
@@ -124,14 +114,6 @@ module.exports = {
       {
         allowNamedFunctions: false,
         allowUnboundThis: true,
-      },
-    ],
-    'object-shorthand': [
-      'error',
-      'always',
-      {
-        ignoreConstructors: false,
-        avoidQuotes: true,
       },
     ],
     'prefer-exponentiation-operator': 'error',
@@ -176,29 +158,16 @@ module.exports = {
     'no-return-assign': 'off',
     // 'operator-linebreak': ['error', 'before'],
     'max-statements-per-line': ['error', { max: 1 }],
-    'vue/singleline-html-element-content-newline':'off',
+    'vue/singleline-html-element-content-newline': 'off',
     // import
     'import/order': 'error',
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
-    'import/newline-after-import': [
-      'error',
-      { count: 1, considerComments: true },
-    ],
+    'import/newline-after-import': ['error', { count: 1, considerComments: true }],
 
     // unused-imports
     'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
-    'unused-imports/no-unused-imports': 'error',
-    'unused-imports/no-unused-vars': [
-      'warn',
-      {
-        vars: 'all',
-        varsIgnorePattern: '^_',
-        args: 'after-used',
-        argsIgnorePattern: '^_',
-      },
-    ],
   },
 }

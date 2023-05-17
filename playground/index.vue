@@ -6,8 +6,8 @@ const name = ref(1)
   <div class="container" />
 </template>
 
-<style lang='less' scoped>
+<style lang="less" scoped>
 .container {
-  position: relative
+  position: relative;
 }
 </style>
