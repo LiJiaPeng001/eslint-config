@@ -21,15 +21,18 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'vue/prefer-import-from-vue': 'off',
     'vue/no-v-text-v-html-on-component': 'off',
-    'vue/html-self-closing': ['error', {
-      html: {
-        void: 'any',
-        normal: 'always',
-        component: 'always'
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'any',
+          normal: 'always',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
       },
-      svg: 'always',
-      math: 'always'
-    }],
+    ],
     'vue/no-setup-props-destructure': 'off',
     'vue/component-tags-order': [
       'error',
@@ -70,7 +73,7 @@ module.exports = {
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { before: true, after: true }],
     'vue/block-spacing': ['error', 'always'],
-    'vue/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    // 'vue/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'vue/comma-dangle': ['error', 'always-multiline'],
     'vue/comma-spacing': ['error', { before: false, after: true }],
     'vue/comma-style': ['error', 'last'],
@@ -85,22 +88,11 @@ module.exports = {
     'vue/no-extra-parens': ['error', 'functions'],
     'vue/no-irregular-whitespace': 'error',
     'vue/no-loss-of-precision': 'error',
-    'vue/no-restricted-syntax': [
-      'error',
-      'DebuggerStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
+    'vue/no-restricted-syntax': ['error', 'DebuggerStatement', 'LabeledStatement', 'WithStatement'],
     'vue/no-sparse-arrays': 'error',
-    'vue/object-curly-newline': [
-      'error',
-      { multiline: true, consistent: true },
-    ],
+    'vue/object-curly-newline': ['error', { multiline: true, consistent: true }],
     'vue/object-curly-spacing': ['error', 'always'],
-    'vue/object-property-newline': [
-      'error',
-      { allowMultiplePropertiesPerLine: true },
-    ],
+    'vue/object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
     'vue/object-shorthand': [
       'error',
       'always',
