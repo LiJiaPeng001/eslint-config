@@ -1,16 +1,16 @@
 {
-  "name": "@peeeng/eslint-prettier",
+  "name": "@peeeng/eslint-config",
   "type": "module",
   "version": "0.0.17",
   "private": true,
   "packageManager": "pnpm@8.1.1",
-  "description": "peeeng eslint-prettier",
+  "description": "peeeng eslint-config",
   "author": "JiaPeng Li <13673717028m@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/lijiapeng001/eslint-prettier#readme",
+  "homepage": "https://github.com/lijiapeng001/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lijiapeng001/eslint-prettier.git"
+    "url": "git+https://github.com/lijiapeng001/eslint-config.git"
   },
   "scripts": {
     "play": "pnpm -C playground dev",
